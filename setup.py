@@ -62,7 +62,6 @@ if __name__ == "__main__" :
                     "snakes.plugins",
                     ],
 
-                    },
           data_files=doc_files() + emacs,
           classifiers=[
               "Intended Audience :: Science/Research",
