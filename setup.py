@@ -41,7 +41,7 @@ if __name__ == "__main__" :
     emacs = [("share/emacs/site-lisp", ["utils/abcd-mode.el",
                                         "utils/abcd-mode.elc"])]
     setup(name="SNAKES",
-          version=open("VERSION").read().strip(),
+          #version=open("VERSION").read().strip(),
           description="SNAKES is the Net Algebra Kit for Editors and Simulators",
           long_description=long_description,
           author="Franck Pommereau",
